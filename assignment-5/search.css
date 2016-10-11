@@ -1,0 +1,10 @@
+/*
+    Search
+    */
+.search-placeholder {
+    width: 600px;
+    height: 400px;
+    background-color: #ddd;
+    margin: 20px auto;
+    padding: 20px;
+}
