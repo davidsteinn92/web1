@@ -5,8 +5,7 @@
 body {
     font-family: Roboto, arial, sans-serif;
     font-weight: 400;
-    background-color: f1f1f1;
-    color: #333;
+    background-color: #f1f1f1;
     margin: 0;
 }
 a, a:visited {
@@ -20,7 +19,7 @@ a:hover {
 /* Hero */
 .hero {
     background-color: #16445f;
-     text-align: center;
+    text-align: center;
     overflow: auto;
 }
 .main-nav {
@@ -48,7 +47,7 @@ a. nav-link {
  .logo {
      float: left;
      margin-right: 100px;
-     with: 0;
+     width: 0;
      height: 0;
      color: rgba(0, 0, 0, 0);
      padding: 60px 160px 0 0;
@@ -178,4 +177,10 @@ dd {
     text-align: left;
     padding: 20px;
     margin: 20px;
+    color: white;
+}
+
+.about-title {
+    color: white;
+    background-color: #000000;
 }
