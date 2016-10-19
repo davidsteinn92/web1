@@ -1,0 +1,193 @@
+/*
+General Styling
+*/
+@import 'https://fonts.googleapis.com/css?family=Cormorant|Roboto:100i,300,400,500,500i,700';
+.body {
+font-family:roboto,aerial,sans-serif;
+font-weight:400;
+background-color:#f1f1f1;
+color:#333;
+margin:0;
+}
+a, a:visited {
+    text-decoration: none;
+    color: #e4b532;
+}
+a:hover {
+    color: #e4b532;
+}
+
+/* Hero */
+.hero {
+    background-color: #16445f;
+    text-align: center;
+    overflow: auto;
+}
+
+/* Navigation */
+.main-nav {
+    max-width:960px;
+    margin:20px auto;
+    text-align:right;
+}
+a.nav-link {
+    box-sizing:border-box;
+    color:#fff;
+    text-decoration:none;
+    height:40px;
+    line-height:38px;
+    font-size:20px;
+    font-family:Cormorant,cursive;
+    display:inline-block;
+    margin:10px 5px;
+    padding:0 15px;
+    border-radius:20px;
+    border:2px solid rgba (255,255,255,0);
+    transition:all 0.2 ease;
+} 
+a.nav-link:hover {
+    color:#FFD86B;
+    border-color:#FFD86B;
+    background-color:rgba(0,0,0,0,4);
+}
+
+#logo {
+    float:left;
+    margin-right:100px;
+    width:0;
+    height:0;
+    color:rgba(255,255,255,0);
+    padding:60px 160px 0 0;
+    background-image:url(images/logo.png);
+    background-size:120px 60px;
+    background-position:center;
+    background-repeat:no-repeat;
+    border-radius:3px;
+    transition:all 0.2 ease;
+}
+
+#logo:hover {
+    background-color:rgba (0,0,0,0,4);
+}
+.main-content {
+    margin:50px auto;
+    width: 960px;
+}
+.clear {
+    clear:both;
+}
+.hero {
+    background-image: url('images/woods.jpg');
+    text-align:center;
+    overflow:auto;
+}
+.hero1 {
+    background-image: url('images/nokayak.png');
+    text-align:center;
+    overflow:auto;
+}
+.hero-card {
+    border:2px solid #fff;
+    color:#efefef;
+    padding:50px;
+    width:800px;
+    margin:100px auto 50px auto;
+}
+.hero-card-title {
+    font-family:georgia,serif;
+    margin:0;
+    font-size:50px;
+}
+.hero-card-description {
+    font-family:georgia,serif;
+    font-size:30px;
+    font-weight:300;
+    margin:20px 0;
+}
+a.hero-card-link {
+    text-decoration:none;
+    color:#efefef;
+    font-size:18px;
+    border:2px solid #efefef;
+    padding:5px 20px;
+}
+.footer {
+    background-color:#333;
+    color:white;
+    padding:20px;
+    text-align:center;
+
+}
+.footer-link {
+    color:#AB810A;
+    text-decoration:none;
+    }
+
+.footer-link:hover {
+    color:#D69E00;
+    text-decoration:underline;
+    } 
+
+.card {
+    background-color:#fff;
+    border:1px solid #ddd;
+    width:300px;
+    margin:20px auto;
+
+
+}
+
+.card-title {
+    padding:10px 20px;
+    margin:20px 0 10px 0;
+    font-size:24px;
+}
+
+a.card {
+    background-color:#fff;
+    box-shadow:2px 2px 3px rgba(0,0,0,0,0.2);
+    width:calc(33.3% - 20px);
+    min-height:310px;
+    margin:10px;
+    float:left;
+    text-decoration:none;
+    color:#333;
+    transition:all .2 ease;
+} 
+.card:hover {
+    transform:scale(1.025);
+    box-shadow:0px 2px 3px rgba(0,0,0,0,0.3);
+}
+.card-title {
+    padding:0 20px;
+    margin:20px 0 10px 0;
+    font-family:Cormorant,cursive;
+    font-size:24px;
+}
+.card-description {
+    padding:0 20px;
+    margin:0 0 20px 0;
+    color:#999;
+}
+.about-photo {
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    box-shadow:2px 2px 3px rgba(0,0,0,0,0.3);
+}
+.about-list-container {
+    border-left:5px solid #d69e00;
+    margin-bottom:50px;
+    padding:20px 50px;
+} 
+.about-list-title {
+    font-size:30px;
+    font-weight:400;
+    color:#d69e00;
+}
+.about-list {
+    font-size:24px;
+} 
+.about-list li {
+    margin:1em auto;
+}

@@ -69,6 +69,16 @@ width: 960px;
 clear:both;
 }
 
+.hero {
+background-image: url('images/woods.jpg');
+text-align:center;
+overflow:auto;
+}
+
+.hero1 {
+background-image: url('images/nokayak.png');
+text-align:center;
+overflow:auto;
 }
 .hero-card {
 border:2px solid #fff;
@@ -168,14 +178,14 @@ border-radius:100px;
 box-shadow:2px 2px 3px rgba(0,0,0,0,0.3);
 }
 .about-list-container {
-border-left:5px solid #d69e00;
+border-left:5px solid #1a02fe;
 margin-bottom:50px;
 padding:20px 50px;
 } 
 .about-list-title {
 font-size:30px;
 font-weight:400;
-color:#d69e00;
+color:#1a02fe;
 }
 .about-list {
 font-size:24px;
