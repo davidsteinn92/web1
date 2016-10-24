@@ -77,14 +77,14 @@ clear:both;
 }
 
 .hero {
-background-image: url('images/coast.jpg');
+background-image: url('images/ocean.jpg');
 background-color: #16445f;    
 text-align:center;
 overflow:auto;
 }
 
 .hero1 {
-background-image: url('images/coast.jpg');    
+background-image: url('images/blueberries.jpg');    
 text-align:center;
 overflow:auto;
 }
