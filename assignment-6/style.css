@@ -77,24 +77,14 @@ clear:both;
 }
 
 .hero {
-background-image: url('images/ocean.jpg');
-background-color: #16445f;    
-text-align:center;
+background-repeat: no repeat;
+background-position: center center;
+background-color: #222;    
+background-size: cover;
 overflow:auto;
 }
 
-.hero1 {
-background-image: url('images/blueberries.jpg');    
-text-align:center;
-overflow:auto;
-}
 
-.hero2 {
-background-image: url('images/coffee.jpg');    
-text-align:center;
-overflow:auto;
-
-}
 .hero-card {
 border:2px solid #fff;
 color:#efefef;
@@ -266,4 +256,26 @@ Coffee
 }
 .menu .label {
     text-align: left;
+}
+
+
+#home .hero {
+ background-image: url('images/ocean.jpg');
+ /*photo by NASA https://hd.unsplash.com/photo-1451186859696-371d9477be93 */
+}
+#about .hero {
+ background-image: url('images/blueberries.jpg');
+ /* photo from @veeterzy https://unsplash.com/search/blueberries?photo=Hc42xXu_WOg*/
+}
+#coffee .hero {
+ background-image: url('images/coffee.jpg');
+ /* photo from Jakub Kapusnak https://foodiesfeed.com/flatwhite-coffee-closeup-berlin */
+}
+#search .hero {
+ background-image: url('images/sky.jpg');
+ /* Photo from drew collins https://unsplash.com/?photo=U713MZX1x0w */
+}
+#assignments .hero {
+ background-image: url('images/coast.jpg');
+ /* photo from Stefan Kunze https://unsplash.com/?photo=_SmZSuZwkHg*/
 }
