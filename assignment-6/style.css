@@ -48,7 +48,7 @@ border-color:#FFD86B;
 background-color:rgba(0,0,0,0,4);
 }
 
-.logo {
+#logo {
 float:left;
 margin-right:100px;
 width:0;
@@ -61,12 +61,10 @@ background-position:center;
 background-repeat:no-repeat;
 border-radius:3px;
 transition:all 0.2 ease;
-
-
 } 
 
 #logo:hover {
-background-color: rgba (0, 0, 0, 0, 4);
+    background-color: rgba(0,0,0,4);
 }
 
 .main-content {
