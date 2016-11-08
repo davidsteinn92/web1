@@ -78,11 +78,12 @@ clear:both;
 }
 
 .hero {
-background-repeat: no repeat;
+background-repeat: no-repeat;
 background-position: center center;
 background-color: #222;    
 background-size: cover;
 overflow:auto;
+text-align: center;
 }
 
 
