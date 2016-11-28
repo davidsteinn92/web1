@@ -4,7 +4,7 @@ body {
 }
 /* Navigation */
 .main-nav {
-    min-height: 100px;
+    min-height: 0px;
     background-color: ffffff;
     font-size: 20px;
     text-align: right;
