@@ -43,15 +43,13 @@ body {
 /* hero styles */
 .hero {
     color: #ffffff;
-    min-height: 400px;
-    background-image: url('images/iceland_lights.jpg');
+    min-height: 800px;
+    background-image: url('images/icetravels_sky.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     text-align: center;
-}
-.hero-yellow {
-    background-image: url('images/iceland_lights.jpg')
+
 }
 .hero-h1 {
     margin: 0;
@@ -72,4 +70,11 @@ body {
     height: 300px;
     display: inline-block;
     vertical-align: top;
+}
+
+#home .hero {
+ background-image: url('images/icetravels_sky.png');
+}
+#tutorial .hero {
+ background-image: url('images/iceland_lights.jpg');
 }
