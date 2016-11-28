@@ -1,4 +1,10 @@
-body {
+/*
+General Styling
+*/
+@import 'https://fonts.googleapis.com/css?family=Raleway|Cormorant|Roboto:100i,300,400,500,500i,700';
+
+
+.body {
     font-family: arial, sans-serif;
     margin: 0;
 }
@@ -29,15 +35,19 @@ body {
 }
 .nav-link:hover {
     border-color:#ffffff;
+    text-transform: uppercase;
 }
 .nav-teal {
     color: #fff;
+    text-transform: uppercase;
 }
 .nav-blue {
     color: #fff;
+    text-transform: uppercase;
 }
 .nav-red {
     color: #fff;
+    text-transform: uppercase;
     
 }
 
@@ -84,6 +94,7 @@ a.btn {
 	border-radius: 50px;
 	box-shadow: 0px 2px 4px rgba(34,62,66,.25);
     color: #fff;
+    font-family: Raleway;
   font-size: 20px;
   letter-spacing: 1px;
   padding-top: 250px;
@@ -91,6 +102,7 @@ a.btn {
   text-decoration: none;
   text-transform: uppercase;
   transition: box-shadow 1s ease;
+
 }
 
 #home .hero {
