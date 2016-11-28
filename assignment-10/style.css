@@ -35,18 +35,22 @@ General Styling
 }
 .nav-link:hover {
     border-color:#ffffff;
+    font-family: Raleway;
     text-transform: uppercase;
 }
 .nav-teal {
     color: #fff;
+    font-family: Raleway;
     text-transform: uppercase;
 }
 .nav-blue {
     color: #fff;
+    font-family: Raleway;
     text-transform: uppercase;
 }
 .nav-red {
     color: #fff;
+    font-family: Raleway;
     text-transform: uppercase;
     
 }
@@ -95,14 +99,13 @@ a.btn {
 	box-shadow: 0px 2px 4px rgba(34,62,66,.25);
     color: #fff;
     font-family: Raleway;
-  font-size: 20px;
-  letter-spacing: 1px;
-  padding-top: 250px;
-  padding: 16px 32px;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: box-shadow 1s ease;
-
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-top: 250px;
+    padding: 16px 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: box-shadow 1s ease;
 }
 
 #home .hero {
