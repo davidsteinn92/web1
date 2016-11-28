@@ -4,10 +4,14 @@ body {
 }
 /* Navigation */
 .main-nav {
-    min-height: 0px;
-    background-color: ffffff;
+    position: fixed;
+    background-color: transparent; 
+    top: 0;
+    left: 0;
     font-size: 20px;
     text-align: right;
+    width: 100% ;
+    margin: 0px 0px;
 }    
 .nav-link {
     box-sizing:border-box;
@@ -25,16 +29,16 @@ body {
 }
 .nav-link:hover {
     background-color: rgba(255, 255, 255, 0.1);
-    border-color:#000000;
+    border-color:#ffffff;
 }
 .nav-teal {
-    color: #000000;
+    color: #fff;
 }
 .nav-blue {
-    color: #000000;
+    color: #fff;
 }
 .nav-red {
-    color: #000000;
+    color: #fff;
 
 }
 
@@ -51,7 +55,7 @@ body {
 
 }
 .hero-h1 {
-    margin: 10;
+    margin: 0px 100px;
     padding-top: 200px;
 }
 
@@ -63,6 +67,7 @@ a.btn {
     color: #fff;
   font-size: 20px;
   letter-spacing: 1px;
+  padding-top: 250px;
   padding: 16px 32px;
   text-decoration: none;
   text-transform: uppercase;
