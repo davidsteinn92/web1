@@ -1,0 +1,19 @@
+Homepage: 
+-Adjust logo
+-Adjust text on homepage (put in 2 lines instead of 3)
+-Try new things on the rounded button (not necessarily rounded)
+-Work on typography
+-Search box? Yes or No
+-New idea - Ice lines at the rocks (getfeedback)
+
+Tutorial page:
+-Round corners on boxes
+-Link locations to google maps (later on)
+-Get rid of search box
+
+Contact page:
+-Get rid of search box
+-Contact boxes (move up to picture)
+-Adjust contact boxes
+-Adjust text?
+-Adjust typography
