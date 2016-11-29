@@ -1,0 +1,119 @@
+/*
+General Styling
+*/
+@import 'https://fonts.googleapis.com/css?family=Raleway|Cormorant|Roboto:100i,300,400,500,500i,700';
+
+
+body {
+    font-family: arial, sans-serif;
+    margin: 0;
+    width: 100%;
+}
+/* Navigation */
+.main-nav {
+    position: fixed;
+    background-color: transparent; 
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    text-align: right;
+    width: 100% ;
+    margin:20px auto;
+}    
+.nav-link {
+    box-sizing:border-box;
+    color:#fff;
+    text-decoration:none;
+    height:40px;
+    line-height:38px;
+    font-size:20px;
+    display:inline-block;
+    margin:10px 5px;
+    padding:0 15px;
+    border-radius:20px;
+    border:2px solid rgba(255,255,255,0);
+    transition:all 0.2s ease;
+}
+.nav-link:hover {
+    border-color:#ffffff;
+    font-family: Raleway;
+    text-transform: uppercase;
+}
+.nav-teal {
+    color: #fff;
+    font-family: Raleway;
+    text-transform: uppercase;
+}
+.nav-blue {
+    color: #fff;
+    font-family: Raleway;
+    text-transform: uppercase;
+}
+.nav-red {
+    color: #fff;
+    font-family: Raleway;
+    text-transform: uppercase;
+    
+}
+
+#logo {
+float:left;
+margin-right:100px;
+width:0;
+height:0;
+color:rgba(255,255,255,0);
+padding:60px 160px 0 0;
+background-image:url(images/logo.png);
+background-size:90px 60px;
+background-position:center;
+background-repeat:no-repeat;
+border-radius:3px;
+transition:all 0.2 ease;
+} 
+
+#logo:hover {
+    background-color: rgba(0,0,0,4);
+}
+
+
+/* hero styles */
+.hero {
+    color: #ffffff;
+    min-height: 100%;
+    max-height: 100%; 
+    background-image: url('images/icetravels_sky.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+
+}
+.hero-h1 {
+    margin: 0px 100px;
+    padding-top: 200px;
+}
+
+a.btn {
+	background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,
+	rgba(255,124,189,0.65) 50%,rgba(108,0,153,0.65) 100%);
+	border-radius: 50px;
+	box-shadow: 0px 2px 4px rgba(34,62,66,.25);
+    color: #fff;
+    font-family: Raleway;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-top: 250px;
+    padding: 16px 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: box-shadow 1s ease;
+    margin-top: 40px; 
+    display: inline-block;
+}
+
+#home .hero {
+ background-image: url('images/icetravels_sky.png');
+}
+#tutorial .hero {
+ background-image: url('images/iceland_lights.jpg');
+}
