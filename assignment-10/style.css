@@ -4,7 +4,7 @@ General Styling
 @import 'https://fonts.googleapis.com/css?family=Raleway|Cormorant|Roboto:100i,300,400,500,500i,700';
 
 
-.body {
+body {
     font-family: arial, sans-serif;
     margin: 0;
     width: 100%;
