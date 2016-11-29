@@ -13,7 +13,7 @@ Tutorial page:
 
 Contact page:
 -Get rid of search box
--Contact boxes (move up to picture)
+-Contact boxes (move up to picture), and maybe make it a one big page
 -Adjust contact boxes
 -Adjust text?
 -Adjust typography
