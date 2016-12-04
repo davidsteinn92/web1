@@ -110,6 +110,29 @@ a.btn {
     display: inline-block;
 }
 
+.hero-card {
+border:2px solid #fff;
+color:#efefef;
+padding:50px;
+width:800px;
+margin:100px auto 50px auto;
+}
+
+.hero-card-title {
+font-family:georgia,serif;
+margin: 0;
+font-size: 30px;
+text-align: center
+}
+
+.hero-card-description {
+font-family: cormorant, serif;
+font-size: 20px;
+font-weight: 300;
+margin: 20px 0;
+text-align: center
+}
+
 #home .hero {
  background-image: url('images/icetravels_sky.png');
 }
