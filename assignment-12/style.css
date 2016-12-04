@@ -80,7 +80,7 @@ transition:all 0.2 ease;
 .hero {
     color: #ffffff;
     min-height: 100%;
-    max-height: 100%;
+    max-height: 100%;°
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -115,4 +115,7 @@ a.btn {
 }
 #tutorial .hero {
  background-image: url('images/iceland_lights.jpg');
+}
+#contact .hero {
+ background-image: url('images/reykjavik.jpg');
 }
