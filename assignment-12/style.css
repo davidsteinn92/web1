@@ -3,6 +3,10 @@ General Styling
 */
 @import 'https://fonts.googleapis.com/css?family=Raleway|Cormorant|Roboto:100i,300,400,500,500i,700';
 
+@font-face{
+    font-family: 'SerifaStd-Light';
+    src: url("Fonts/SerifaStd-Light.otf");
+}
 
 body {
     font-family: arial, sans-serif;
@@ -90,6 +94,10 @@ transition:all 0.2 ease;
 
 }
 .hero-h1 {
+    font-family: "SerifaStd-Light";
+    font-weight: 100;
+    font-size: 45px;
+    letter-spacing: 1px;
     margin: 0px 100px;
     padding-top: 200px;
 }
@@ -147,7 +155,7 @@ background: #32b885;
 position: absolute;
 left: -50px;
 top: -50px;
-box-shadow: 5px 5px 10px #888888; 
+box-shadow: 5px 5px 20px #999; 
 }
 
 .days {
