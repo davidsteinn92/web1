@@ -73,7 +73,7 @@ transition:all 0.2 ease;
 } 
 
 #logo:hover {
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0);
     border: none;
 }
 
@@ -95,8 +95,8 @@ transition:all 0.2 ease;
 }
 
 a.btn {
-	background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,
-	rgba(255,124,189,0.65) 50%,rgba(108,0,153,0.65) 100%);
+	background: linear-gradient(45deg, rgba(91,185,137,0.65) 0%,
+	rgba(8,161,179,0.65) 50%,rgba(108,0,153,0.65) 100%);
 	border-radius: 50px;
 	box-shadow: 0px 2px 4px rgba(34,62,66,.25);
     color: #fff;
@@ -145,8 +145,8 @@ height: 100px;
 border-radius: 50px;
 background: #32b885;
 position: absolute;
-left: 0px;
-top: 0px;
+left: -10px;
+top: -10px;
 box-shadow: 5px 5px 10px #888888; 
 }
 
