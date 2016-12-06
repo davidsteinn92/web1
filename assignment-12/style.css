@@ -58,7 +58,7 @@ body {
 
 #logo {
 float:left;
-margin-right: 90px;
+margin-left: 90px;
 width:0;
 height:0;
 color:rgba(255,255,255,0);
@@ -67,12 +67,14 @@ background-image:url(images/logo.png);
 background-size:90px 60px;
 background-position:center;
 background-repeat:no-repeat;
-border-radius:3px;
+border: none;
+border-radius: 0px;
 transition:all 0.2 ease;
 } 
 
 #logo:hover {
-    background-color: rgba(0,0,0,4);
+    background-color: rgba(0,0,0,0.4);
+    border: none;
 }
 
 
