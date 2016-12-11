@@ -181,8 +181,13 @@ color: ffffff;
 font-size: 25px;
 }
 
+.contact {
+    padding-top: 80px;
+}
+
 input[type=text], select {
 width: 40%;
+padding-top: 40px;
 padding: 12px 20px;
 margin: 8px 0;
 display: inline-block;
