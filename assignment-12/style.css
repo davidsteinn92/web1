@@ -114,6 +114,10 @@ transition:all 0.2 ease;
     
 }
 
+.hero-h3 {
+    
+}
+
 a.btn {
 	background: linear-gradient(45deg, rgba(91,185,137,0.75) 20%,
 	rgba(8,161,179,0.60) 50%);
@@ -128,7 +132,7 @@ a.btn {
     text-decoration: none;
     text-transform: uppercase;
     transition: box-shadow 1s ease;
-    margin-top: 40px; 
+    margin-top: 20px; 
     display: inline-block;
 }
 
