@@ -91,7 +91,7 @@ transition:all 0.2 ease;
     background-size: cover;
     background-position: center center;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 75px;
 
 }
 .hero-h1 {
@@ -99,7 +99,7 @@ transition:all 0.2 ease;
     font-weight: 100;
     font-size: 45px;
     letter-spacing: 1px;
-    padding-top: 60px;
+    padding-top: 75px;
 }
 
 
@@ -115,6 +115,10 @@ transition:all 0.2 ease;
 }
 
 .hero-h3 {
+    padding-top: 160px;
+    font-weight: 100;
+    font-size: 12px;
+    font-style: italic;
     
 }
 
