@@ -94,6 +94,18 @@ transition:all 0.2 ease;
     padding-top: 100px;
 
 }
+
+.hero-2 {
+    color: #ffffff;
+    min-height: 50%;
+    max-height: 80%;°
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding-top: 100px;
+}    
+    
 .hero-h1 {
     font-family: "SerifaStd-Light";
     font-weight: 100;
@@ -119,6 +131,7 @@ transition:all 0.2 ease;
     font-weight: 100;
     font-size: 12px;
     font-style: italic;
+    letter-spacing: 1px;
     
 }
 
@@ -218,7 +231,7 @@ background-color: #45a049;
 #home .hero {
  background-image: url('images/icetravels_sky.png');
 }
-#tutorial .hero {
+#tutorial .hero-2 {
  background-image: url('images/iceland_lights.jpg');
 }
 #contact .hero {
